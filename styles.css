@@ -1,0 +1,26 @@
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#todo-container {
+    margin-top: 20px;
+}
+
+#todoList {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item button {
+    margin-left: 10px;
+}
